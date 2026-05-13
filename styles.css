@@ -1,15 +1,14 @@
 .container {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  display: inline-block;
-  min-height: 100vh;
+width: 100%;
+margin: auto;
+text-align: center;
+display: inline-block;
+min-height: 100vh;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -31,7 +30,9 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 80%;       
+  max-width: 300px; 
+  height: auto;     
 }
 
 footer {
@@ -49,12 +50,11 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive; ;
   background-color: #ffffffce;
 }
-
 .button:hover{
   background-color: grey;
   border-color: grey;
-  
 }
+
 @media (max-width: 600px) {
   .container {
     display: flex;
@@ -71,9 +71,11 @@ footer {
     margin: 10px auto;
     width: 45%;
   }
+
   img {
     width: 50%;        
   }
+
   .button {
     width: 100%;        
     height: 50px;
